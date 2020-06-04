@@ -67,12 +67,25 @@ class Ideone
 	
 		// 5 : Toán tử so sánh : > < >= <= == != 
 		
-		int a = 5;
-		int b = 6;
-		if(a != 5){
-			System.out.print("A khac 5");
-		}else{
-			System.out.print("A bang 5");
+		// int a = 5;
+		// int b = 6;
+		// if(a != 5){
+		// 	System.out.print("A khac 5");
+		// }else{
+		// 	System.out.print("A bang 5");
+		// }
+		
+		// 6 : switch case
+		boolean a = true;
+		switch(a){
+			case false : {
+				System.out.print("Gia tri la false");
+				break;
+			}
+			case true : {
+				System.out.print("Gia tri la true");
+				break;
+			}
 		}
 		
 		
