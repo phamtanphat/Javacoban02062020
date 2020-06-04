@@ -11,6 +11,7 @@ class Ideone
 	{
 		// comment code : Đoạn code này không thực thi (ctrl + /)
 		// your code goes here
+		
 		// 1 : Khai báo biến
 		// Kiểu dữ liệu + tên biến
 		// int a = 10;
@@ -21,9 +22,30 @@ class Ideone
 		// String myDog = "Lulu";
 		// Kỹ thuật đặt tên biến : Camelcase
 		// System.out.print(a);
+		
 		// 2 : Kiểu dữ liệu 
 		// int , float , double , boolean , char : Kiểu dữ liệu nguyên thủy
 		// String , Integer ,Float , Double , Boolean : Kiểu dữ liệu đối tượng
+		
+		// 3 : Toán tử 
+		int a = 1;
+		int b = 1;
+		// a = a + 1;
+		// a += 1;
+		// ++a;
+		// a++;
+		// a = a++;
+		// System.out.print(a);
+		int ketqua = a++ - b++ + ++b + ++a - a++ + b++ + a-- + --b + --a
+		// 1 - b++ + ++b + ++a - a++ + b++ + a-- + --b + --a
+		// 1 - b++ + ++b + ++a - a++ + b++ + a-- + --b + --a
+		
+		// ? 3
+		
+		
+		
+		
+		
 		
 		
 	}
