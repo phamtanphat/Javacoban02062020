@@ -28,8 +28,8 @@ class Ideone
 		// String , Integer ,Float , Double , Boolean : Kiểu dữ liệu đối tượng
 		
 		// 3 : Toán tử 
-		int a = 1;
-		int b = 1;
+		// int a = 1;
+		// int b = 1;
 		// a = a + 1;
 		// a += 1;
 		// ++a;
@@ -40,7 +40,7 @@ class Ideone
 		// 1 : ++ --
 		// 2 : * /
 		// 3 : + -
-		int ketqua = a++ - b++ + ++b + ++a - a++ + b++ + a-- + --b + --a;
+		// int ketqua = a++ - b++ + ++b + ++a - a++ + b++ + a-- + --b + --a;
 		// 1 - b++ + ++b + ++a - a++ + b++ + a-- + --b + --a  a : 2 , b : 1
 		// 1 - 1 + ++b + ++a - a++ + b++ + a-- + --b + --a  a : 2 , b : 2
 		// 1 - 1 + 3 + ++a - a++ + b++ + a-- + --b + --a  a : 2 , b : 3
@@ -50,7 +50,23 @@ class Ideone
 		// 1 - 1 + 3 + 3   - 3 + 3 + 4 + --b + --a  a : 3 , b : 4
 		// 1 - 1 + 3 + 3   - 3 + 3 + 4 + 3 + 2  a : 2 , b : 3
 		// 15
-		System.out.print(ketqua);
+		// System.out.print(ketqua);
+		
+		// 4 : Câu điều kiện : if else , switch case
+		// block scope : Phạm vi thực thi
+		int a = 5;
+		int b = 6;
+		if (a > b) {
+			System.out.print("A lon hon B");
+		}else if (a == b) {
+			System.out.print("A bang B");
+		}else{
+			System.out.print("A nho hon B");
+		}
+		
+	
+		// 5 : Toán tử so sánh : > < >= <= == != 
+		
 		
 		
 		
