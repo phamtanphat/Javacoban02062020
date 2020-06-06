@@ -98,6 +98,11 @@ class Ideone
 			if (i == 5) break;
 			System.out.print(i);
 		}
-		
+			// while
+		// int a = 5;
+		// while(a <= 10){
+		// 	System.out.print(a);
+		// 	a++;
+		// }
 	}
 }
