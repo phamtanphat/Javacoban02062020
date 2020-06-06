@@ -104,5 +104,11 @@ class Ideone
 		// 	System.out.print(a);
 		// 	a++;
 		// }
+		
+		// do while
+		// int a = 5;
+		// do{
+		//   System.out.print(a++);
+		// }while(a < 10);
 	}
 }
